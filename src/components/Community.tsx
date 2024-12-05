@@ -3,7 +3,7 @@ import { Heart, Leaf, Shield, Flame } from 'lucide-react';
 const activities = [
   {
     title: "Road Safety Training",
-    description: "Empowering primary school teachers with essential road safety knowledge to protect our children. Our comprehensive training program reached over 50 schools in 2023.",
+    description: "Empowering primary school teachers with essential road safety knowledge to protect our children. Our comprehensive training program reached several schools in 2023.",
     image: "/primary.jpeg",
     icon: Shield,
   },
