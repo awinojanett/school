@@ -58,7 +58,7 @@ const Hero = () => {
               <p className="text-base sm:text-xl md:text-2xl mb-4 sm:mb-8">{slide.description}</p>
               <a
                 href="/contact"
-                className="inline-block bg-blue-600 text-white px-6 py-2 sm:px-8 sm:py-3 rounded-md text-sm sm:text-lg font-medium hover:bg-blue-700 transition-colors"
+                className="inline-block bg-red-600 text-white px-6 py-2 sm:px-8 sm:py-3 rounded-md text-sm sm:text-lg font-medium hover:bg-red-700 transition-colors"
               >
                 Enroll Now
               </a>

@@ -3,8 +3,8 @@ import { Heart, Leaf, Shield, Flame } from 'lucide-react';
 const activities = [
   {
     title: "Road Safety Training",
-    description: "Empowering primary school teachers with essential road safety knowledge to protect our children. Our comprehensive training program reached several schools in 2023.",
-    image: "/primary.jpeg",
+    description: "Providing essential road safety training to promote responsible driving, prevent accidents, and ensure the safety of all road users.",
+    image: "/road.jpg",
     icon: Shield,
   },
   {
@@ -70,7 +70,7 @@ const CommunityService = () => {
         <div className="mt-16 text-center">
           <a
             href="/contact"
-            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700 transition-colors"
           >
             Get Involved
             <svg

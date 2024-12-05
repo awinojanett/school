@@ -90,7 +90,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/contact"
-              className="bg-blue-600 text-white px-3 py-2 text-sm lg:px-4 lg:py-2 lg:text-base rounded-md hover:bg-blue-700 transition-colors"
+              className="bg-red-600 text-white px-3 py-2 text-sm lg:px-4 lg:py-2 lg:text-base rounded-md hover:bg-red-700 transition-colors"
             >
               Contact Us
             </Link>

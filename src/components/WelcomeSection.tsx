@@ -29,7 +29,7 @@ const WelcomeSection = () => {
   </div>
   <div className="mt-8">
     <Link to="/courses">
-      <button className="bg-white text-blue-800 py-3 px-6 rounded-lg font-semibold shadow hover:bg-blue-100 transition">
+      <button className="bg-white text-red-600 py-3 px-6 rounded-lg font-semibold shadow hover:bg-red-200 transition">
         Learn More
       </button>
     </Link>

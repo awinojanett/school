@@ -1,6 +1,6 @@
 import { FaLaptop, FaUserMd, FaTools, FaFireExtinguisher, FaFirstAid, FaProjectDiagram, FaSmileBeam } from "react-icons/fa";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
-import { MdOutlineFactory, MdOutlineMedicalServices } from "react-icons/md";
+
 
 const CoursesSection = () => {
   return (
@@ -33,21 +33,7 @@ const CoursesSection = () => {
               <li className="flex items-center">
                 <FaSmileBeam className="text-blue-700 mr-3" /> Hospitality Management
               </li>
-              <li className="flex items-center">
-                <FaLaptop className="text-blue-700 mr-3" /> Journalism and Media Studies
-              </li>
-              <li className="flex items-center">
-                <FaProjectDiagram className="text-blue-700 mr-3" /> Project Management
-              </li>
-              <li className="flex items-center">
-                <FaTools className="text-blue-700 mr-3" /> Laundry Services
-              </li>
-              <li className="flex items-center">
-                <FaLaptop className="text-blue-700 mr-3" /> Marketing and Advertising
-              </li>
-              <li className="flex items-center">
-                <FaSmileBeam className="text-blue-700 mr-3" /> Cosmetology
-              </li>
+              
             </ul>
           </div>
 
@@ -75,16 +61,22 @@ const CoursesSection = () => {
 
           {/* Column 3 - Other Services */}
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold mb-4">Other Services</h3>
+            <h3 className="text-2xl font-bold mb-4">More College Courses</h3>
             <ul className="space-y-4 text-lg">
-              <li className="flex items-center">
-                <MdOutlineFactory className="text-blue-700 mr-3" /> Factory Audit
+            <li className="flex items-center">
+                <FaLaptop className="text-blue-700 mr-3" /> Journalism and Media Studies
               </li>
               <li className="flex items-center">
-                <FaFireExtinguisher className="text-blue-700 mr-3" /> Fire Safety Audit
+                <FaProjectDiagram className="text-blue-700 mr-3" /> Project Management
               </li>
               <li className="flex items-center">
-                <MdOutlineMedicalServices className="text-blue-700 mr-3" /> Sale of Medical and Safety Equipment
+                <FaTools className="text-blue-700 mr-3" /> Laundry Services
+              </li>
+              <li className="flex items-center">
+                <FaLaptop className="text-blue-700 mr-3" /> Marketing and Advertising
+              </li>
+              <li className="flex items-center">
+                <FaSmileBeam className="text-blue-700 mr-3" /> Cosmetology
               </li>
             </ul>
           </div>
