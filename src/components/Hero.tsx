@@ -8,12 +8,12 @@ const slides = [
     description: "Pioneering specialized emergency medical care training for EMS and non-EMS personnel"
   },
   {
-    image: "/medical.JPG",
+    image: "/equipment.jpeg",
     title: "Supply of medical and safety equipment",
     description: "Our products are designed to meet industry standards, offering reliable solutions for healthcare, emergency response, and workplace safety"  
   },
   {
-    image: "/bls.JPG",
+    image: "/fire.jpeg",
     title: "Statutory Audits",
     description: "Conducting comprehensive statutory audits to ensure compliance with legal and regulatory requirements."
   }

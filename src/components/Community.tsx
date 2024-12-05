@@ -10,7 +10,7 @@ const activities = [
   {
     title: "Community Fire Safety",
     description: "Conducting free fire safety workshops in local communities, teaching essential prevention and response techniques to create safer neighborhoods.",
-    image: "/fire.jpeg",
+    image: "/fire2.jpeg",
     icon: Flame,
   },
   {
@@ -34,7 +34,7 @@ const CommunityService = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Community Service</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            At Equinox Emergency College, we believe in giving back to our community. Through various initiatives, 
+            At Equinox Emergency Training Center, we believe in giving back to our community. Through various initiatives, 
             we work to create positive change and build a safer, healthier society.
           </p>
         </div>
