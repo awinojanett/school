@@ -10,7 +10,7 @@ const activities = [
   {
     title: "Community Fire Safety",
     description: "Conducting free fire safety workshops in local communities, teaching essential prevention and response techniques to create safer neighborhoods.",
-    image: "/fire2.jpeg",
+    image: "/cf.jpeg",
     icon: Flame,
   },
   {
