@@ -3,6 +3,10 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const partners = [
   {
+    name: "ICT",
+    logo: "/ict.jpg"
+  },
+  {
     name: "Kanika Hospital",
     logo: "/kanika1.jpg"
   },

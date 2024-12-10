@@ -5,17 +5,23 @@ const slides = [
   {
     image: "/background1.JPG",
     title: "Excellence in Emergency Medical Training",
-    description: "Pioneering specialized emergency medical care training for EMS and non-EMS personnel"
+    description: "Pioneering specialized emergency medical care training for EMS and non-EMS personnel",
+    buttonText: "Enroll Now",
+    buttonLink: "https://docs.google.com/forms/d/e/1FAIpQLSf8Q8S3fujWT8oQFAoP4MWDR4Cs2q4YQ71RYwgMjkiHXDVtAg/viewform?usp=header"
   },
   {
     image: "/equipment.jpeg",
     title: "Supply of medical and safety equipment",
-    description: "Our products are designed to meet industry standards, offering reliable solutions for healthcare, emergency response, and workplace safety"  
+    description: "Our products are designed to meet industry standards, offering reliable solutions for healthcare, emergency response, and workplace safety",
+    buttonText: "Contact Us",
+    buttonLink: "https://wa.me/254724238805"
   },
   {
     image: "/fire.jpeg",
     title: "Statutory Audits",
-    description: "Conducting comprehensive statutory audits to ensure compliance with legal and regulatory requirements."
+    description: "Conducting comprehensive statutory audits to ensure compliance with legal and regulatory requirements.",
+    buttonText: "Contact Us",
+    buttonLink: "https://wa.me/254724238805"
   }
 ];
 
@@ -53,22 +59,22 @@ const Hero = () => {
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-center z-20">
-          <div className="text-center text-white px-4 sm:px-6 max-w-4xl">
-            <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-2 sm:mb-4">{slide.title}</h1>
-            <p className="text-base sm:text-xl md:text-2xl mb-4 sm:mb-8">{slide.description}</p>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf8Q8S3fujWT8oQFAoP4MWDR4Cs2q4YQ71RYwgMjkiHXDVtAg/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-red-600 text-white px-6 py-2 sm:px-8 sm:py-3 rounded-md text-sm sm:text-lg font-medium hover:bg-red-700 transition-colors"
-            >
-              Enroll Now
-            </a>
+            <div className="text-center text-white px-4 sm:px-6 max-w-4xl">
+              <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-2 sm:mb-4">{slide.title}</h1>
+              <p className="text-base sm:text-xl md:text-2xl mb-4 sm:mb-8">{slide.description}</p>
+              <a
+                href={slide.buttonLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-red-600 text-white px-6 py-2 sm:px-8 sm:py-3 rounded-md text-sm sm:text-lg font-medium hover:bg-red-700 transition-colors"
+              >
+                {slide.buttonText}
+              </a>
+            </div>
           </div>
         </div>
-        </div>
       ))}
-      
+
       <button
         onClick={prevSlide}
         className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-30 p-1 sm:p-2 bg-white/20 rounded-full hover:bg-white/30 transition-colors"
