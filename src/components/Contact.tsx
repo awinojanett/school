@@ -105,8 +105,8 @@ const Contact = () => {
                 <div className="ml-4">
                   <h4 className="font-semibold text-gray-900">Address</h4>
                   <p className="text-gray-600">
-                  Safety Hse, Bunyala Rd<br />
-                  Nairobi City
+                  Brail Plaza, Litein<br />
+                  Paul Mark Building, Kisumu
                   </p>
                 </div>
               </div>
@@ -114,8 +114,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                 <div className="ml-4">
                   <h4 className="font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+254 728 827 868
-                  </p>
+                  <p className="text-gray-600">0724238805</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -142,7 +141,7 @@ const Contact = () => {
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="aspect-w-16 aspect-h-9">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819917806228!2d36.817223!3d-1.286389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTcnMTEuMCJTIDM2wrA0OSczNy4wIkU!5e0!3m2!1sen!2sus!4v1635959562000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63837.02766339957!2d34.70237684863281!3d-0.08205329999997665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa3a934405c5f%3A0x9e5ae6dd496a9cc0!2sPAULMARK%20COLLEGE%20TWO!5e0!3m2!1sen!2ske!4v1733862641554!5m2!1sen!2ske"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -155,10 +154,6 @@ const Contact = () => {
           </div>
           <div className="p-4 sm:p-6 bg-gray-50">
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Visit Our Campus</h3>
-            <p className="text-gray-600">
-              Our facility is conveniently located in the heart of Nairobi City.
-              We're easily accessible by public transportation and have ample parking space available.
-            </p>
           </div>
         </div>
       </div>

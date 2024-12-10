@@ -10,14 +10,14 @@ const slides = [
     buttonLink: "https://docs.google.com/forms/d/e/1FAIpQLSf8Q8S3fujWT8oQFAoP4MWDR4Cs2q4YQ71RYwgMjkiHXDVtAg/viewform?usp=header"
   },
   {
-    image: "/equipment.jpeg",
+    image: "/medical1.jpg",
     title: "Supply of medical and safety equipment",
     description: "Our products are designed to meet industry standards, offering reliable solutions for healthcare, emergency response, and workplace safety",
     buttonText: "Contact Us",
     buttonLink: "https://wa.me/254724238805"
   },
   {
-    image: "/fire.jpeg",
+    image: "/fire3.jpg",
     title: "Statutory Audits",
     description: "Conducting comprehensive statutory audits to ensure compliance with legal and regulatory requirements.",
     buttonText: "Contact Us",

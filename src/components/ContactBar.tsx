@@ -10,7 +10,7 @@ const ContactBar = () => {
             <a href="tel:+15551234567" className="flex items-center hover:text-blue-100 transition-colors">
               <Phone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
               <span className="sm:hidden">Call Us</span>
-              <span className="hidden sm:inline">0740495954</span>
+              <span className="hidden sm:inline">0724238805</span>
             </a>
             <a href="mailto:info@equinoxemergency.com" className="flex items-center hover:text-blue-100 transition-colors">
               <Mail className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />

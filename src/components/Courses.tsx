@@ -39,44 +39,44 @@ const CoursesSection = () => {
 
           {/* Column 2 - Corporate Courses */}
           <div className="p-6 bg-blue-800 text-white rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold mb-4">Corporate Courses</h3>
+            <h3 className="text-2xl font-bold mb-4"></h3>
             <ul className="space-y-4 text-lg">
               <li className="flex items-center">
-                <FaFirstAid className="mr-3" /> First Aid Training
+                <FaFirstAid className="mr-3" /> Journalism and Media Studies
               </li>
               <li className="flex items-center">
-                <FaFireExtinguisher className="mr-3" /> Fire Safety Training
+                <FaFireExtinguisher className="mr-3" /> Project Management
               </li>
               <li className="flex items-center">
-                <AiOutlineSafetyCertificate className="mr-3" /> Basic Life Support
+                <AiOutlineSafetyCertificate className="mr-3" /> Laundry Services
               </li>
               <li className="flex items-center">
-                <AiOutlineSafetyCertificate className="mr-3" /> Advanced Cardiac Life Support
+                <AiOutlineSafetyCertificate className="mr-3" /> Marketing and Advertising
               </li>
               <li className="flex items-center">
-                <AiOutlineSafetyCertificate className="mr-3" /> Health and Safety Training
+                <AiOutlineSafetyCertificate className="mr-3" /> Cosmetology
               </li>
             </ul>
           </div>
 
           {/* Column 3 - Other Services */}
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold mb-4">More College Courses</h3>
+            <h3 className="text-2xl font-bold mb-4">Corporate Courses</h3>
             <ul className="space-y-4 text-lg">
             <li className="flex items-center">
-                <FaLaptop className="text-blue-700 mr-3" /> Journalism and Media Studies
+                <FaLaptop className="text-blue-700 mr-3" /> First Aid Training
               </li>
               <li className="flex items-center">
-                <FaProjectDiagram className="text-blue-700 mr-3" /> Project Management
+                <FaProjectDiagram className="text-blue-700 mr-3" /> Fire Safety Training
               </li>
               <li className="flex items-center">
-                <FaTools className="text-blue-700 mr-3" /> Laundry Services
+                <FaTools className="text-blue-700 mr-3" /> Basic Life Support
               </li>
               <li className="flex items-center">
-                <FaLaptop className="text-blue-700 mr-3" /> Marketing and Advertising
+                <FaLaptop className="text-blue-700 mr-3" /> Advanced Cardiac Life Support
               </li>
               <li className="flex items-center">
-                <FaSmileBeam className="text-blue-700 mr-3" /> Cosmetology
+                <FaSmileBeam className="text-blue-700 mr-3" /> Health and Safety Training
               </li>
             </ul>
           </div>

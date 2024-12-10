@@ -22,7 +22,7 @@ const activities = [
   {
     title: "Orphanage Support",
     description: "Regular visits to local orphanages providing medical check-ups, emergency response training, and essential supplies to support vulnerable children.",
-    image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=500&h=500&q=80",
+    image: "/orphans.webp",
     icon: Heart,
   },
 ];

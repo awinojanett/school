@@ -60,7 +60,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>Brail Plaza, 2nd Floor</li>
               <li>Faulu Bank off Hospital Road</li>
-              <li>Phone: +254740495954</li>
+              <li>Phone: 0724 238 805</li>
               <li>Email: equinoxemergency@gmail.com</li>
             </ul>
           </div>
