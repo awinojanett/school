@@ -7,6 +7,10 @@ const accreditations = [
     logo: "/AHA.jpg"
   },
   {
+    name: "American Heart Association",
+    logo: "/tveta.png"
+  },
+  {
     name: "Directorate of Occupational Safety and Health",
     logo: "/safety.png"
   },
